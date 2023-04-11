@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400;1,700&display=swap');
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            
+            /*
+            Medidas absolutas
+            cm,mm, in, px, pt, pc
+            
+            Medidas relativas em, ex, rem, vm, vh, %
+            1px geralmente = 1em
+            */
+            
+            
+            
+            font-style: italic;
+            font-weight: bold;
+            /*text-decoration: underline; para sublinhar*/
+            font-size: 1em;
+            
+            /* weight = peso*/
+            /* lighter normal bold bolder 100 - 900*/
+        }
+
+        h1 {
+            
+            /* shorthand font
+            - font-style -> font-weight -> font size -> font-family */
+            font: italic bolder 700'Nurito', sans-serif;
+        }
+
+        h2{
+            font: medium 200 'Nurito', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum velit doloribus, atque quam, maxime, commodi assumenda accusantium reprehenderit ad veritatis ex officiis perspiciatis distinctio? Vero cupiditate ducimus voluptate incidunt saepe!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quibusdam enim facilis, quisquam necessitatibus consequatur aut. Hic laboriosam repudiandae, molestiae dolore in, at, quam rerum quas est fugit veniam dolorum?</p>
+</body>
+</html>

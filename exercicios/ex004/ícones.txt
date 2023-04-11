@@ -1,0 +1,2 @@
+icon archive = Site para procurar ícones para o site.
+favicon/favicon.iom = Site para fazer ícones.

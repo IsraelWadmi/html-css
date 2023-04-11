@@ -1,0 +1,46 @@
+@charset "URF-8";
+
+/*
+    id é uma classificação
+    class é utilizado para uar em dois ou mais elementos
+    span = um trecho do texto
+
+    em HTML é id =    em CSS é # ( so pode um elemento)
+    em HTML é class = em CSS é . (pode vários elementos)
+*/
+
+body{
+    background-color: #6AA3E0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:#1a42c5;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #1a42c5;
+    color: white
+}
+
+h2{
+    color:#3267A1;
+}
+
+.basico {
+    color: rgb(6, 112, 6);
+    font-weight: bolder;
+}
+
+.intermediario {
+    color: rgb(201, 201, 9);
+}
+
+.avancado {
+    color: rgb(175, 16, 16);
+}
+
+.destaque {
+    background-color: rgba(204, 204, 2, 0.705);
+}
