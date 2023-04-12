@@ -2,3 +2,6 @@
  curso de html5 e css do curso em video
 
 <a heref="https://israelwadmi.github.io/html-css/desafios/d010/">
+
+THEME-minima
+remote_theme: benbalter/retlab
