@@ -3,5 +3,3 @@
 
 <a heref="https://israelwadmi.github.io/html-css/desafios/d010/">
 
-THEME-minima
-remote_theme: benbalter/retlab
