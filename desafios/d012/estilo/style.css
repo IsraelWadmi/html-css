@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body p {
+    font-size: 1.8em;
+    line-height: 1.8em;
+    font-weight: bold;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    font-size: 80px;
+     
+}
+
+article {
+    background-color: white;
+    padding: 40px 0px 40px 20px;
+    width: 400px;
+}
+
+article.p02 {
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+    margin: 5px 0px 0px 5px;
+    padding: 10px 3px;
+}
+
+main.caixa02 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding: 100px 0px 0px 15px;
+    
+    height: 500px;
+    width: 825px;
+}
