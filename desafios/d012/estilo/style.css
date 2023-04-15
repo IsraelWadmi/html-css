@@ -21,33 +21,65 @@ header {
     color: white;
     text-align: center;
 }
+
 header > h1 {
     font-size: 80px;
      
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 100%;
+}
+
 article {
     background-color: white;
     padding: 40px 0px 40px 20px;
-    width: 400px;
+    max-width: 400px;
+    min-width: 30px;
 }
 
 article.p02 {
     background-color: rgba(0, 0, 0, 0.438);
     color: white;
-    margin: 5px 0px 0px 5px;
     padding: 10px 3px;
 }
 
-main.caixa02 {
-    background-image: url('../imagens/background001.jpg');
+div.fundo {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 
+    box-shadow: inset -5px 4px 14px rgba(0, 0, 0, 0.548);
+
     padding: 100px 0px 0px 15px;
     
-    height: 500px;
-    width: 825px;
+    max-height: 600px;
+    min-height: 500px;
+    
+}
+
+div#joaninha {
+    background-image: url('../imagens/background001.jpg');
+}
+
+div#pagina {
+    background-image: url('../imagens/background002.jpg');
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    padding: 12px;
 }
