@@ -1,0 +1,5 @@
+th = Título da tbela
+td = Dado da tabela
+
+scope="col" = Para tag th, cujo os dados estão na vertical (colunas)
+scope="row" = Para tag th, cujo os dados estão na horizontal (linhas)
