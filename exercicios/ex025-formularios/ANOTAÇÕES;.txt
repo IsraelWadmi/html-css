@@ -1,0 +1,15 @@
+ANOTAÇÕES;
+Aula 1:
+<!-- method="get" para mostrar o dado na barra de pesquisa e, post para ocultar-->
+Aula 2:
+<!-- required para requerir que a barra seja preenchida-->
+<!-- minlength é a quantidade mínina de caracteres-->
+<!-- placeholder serve para dá dicas-->
+<!-- current-password parqa senhas ja existente do usuário-->
+Aula 3:
+<!-- value serve para deixar escrito algo no input-->
+Aula 4:
+<!-- fieldset é agrupamento-->
+Aula 5:
+<!-- o name é utilizado para indicar que as seleções são do mesmo grupo, é bom utilizar em input:radio--> 
+<!-- o value também serve para dá valor pre definido a algo, ou valo oculto no caso do input:radio e input:checkbox-->
