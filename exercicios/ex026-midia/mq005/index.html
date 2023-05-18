@@ -7,8 +7,9 @@
     <title>Media Query</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     
     <header>
         <h1>Meu site</h1>
@@ -24,6 +25,7 @@
         </menu>
     </header>
     <main>
+        
         <article>
             <h2>Testando Media Query</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, accusantium eaque earum minus aspernatur atque eveniet ad a facere animi non quidem enim, perspiciatis veniam fuga? In harum nesciunt ex? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis eius commodi error atque perferendis dicta, tempora soluta ad quis iure, cupiditate consequatur corporis eaque, eligendi beatae possimus reiciendis quod temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam rem at tempore delectus soluta, quo, id tempora autem, assumenda eaque laudantium obcaecati facere alias vel. Mollitia earum beatae temporibus soluta. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos magnam sit consectetur! Alias culpa modi maiores delectus consectetur incidunt dolores, nulla in corporis magnam blanditiis asperiores porro, soluta hic minima.</p>
@@ -34,6 +36,15 @@
         </article>
     </main>
     <script>
+
+        /*function mudouTamanho() {
+            if (window.innerwidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }  não funciona */
+
         function clickMenu() {
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
