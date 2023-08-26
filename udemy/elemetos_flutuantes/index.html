@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #principal {
+            background: green;
+            border: 5px solid red;
+        }
+
+        .conteudo{
+            background: blue;
+            border: 1 solid gray;
+            margin: 5px;
+            width: 200px;
+            height: 200px;
+            float: left; /*Ao utilizar elementos float dentro 
+            de uma div, pode causar bugs, para isso não 
+            acontecer é nescessário utilizar o clear:both;*/
+        }
+
+        /*
+        .conteudo1{
+            background: red;
+            border: 1 solid gray;
+            width: 150px;
+            height: 150px;
+            float: left;
+        }
+        */
+
+        .clear{
+            border: solid 1px black;
+            clear: both; /*both funciona no geral*/
+
+        }
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <div class="conteudo">
+            conteudo 1
+        </div>
+        <div class="conteudo">
+            conteudo 2
+        </div>
+        <div class="conteudo">
+            conteudo 3
+        </div>
+        <div class="clear">
+            aa
+        </div>
+    </div>
+</body>
+</html>
