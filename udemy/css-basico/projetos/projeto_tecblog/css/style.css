@@ -22,28 +22,23 @@ header {
     padding: 10px;
 }
 
+/**/
+
 main {
     width: 920px;
     margin: 0 auto;
     padding: 15px;
-    border: 1px solid red;
-    
 }
 
-#area-postagens, #area-lateral {
-    background-color: orange;
-}
+/*Área de postagem*/
 
 #area-postagens {
     width: 660px;
     float: left;
-    border: 2px solid blue;
-
 }
 
 .postagem{
     padding: 20px;
-    border: 2px solid green;
     margin-bottom: 20px;
     background: white;
 }
@@ -52,11 +47,29 @@ main {
     width: 620px;
 }
 
+/* Área lateral */
 #area-lateral {
     width: 240px;
     float: right;
-    
 }
+
+.conteudo-lateral {
+    
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.conteudo-lateral  a {
+    padding-top: 5px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+
+/*Fechamento lateral*/
 
 
 footer{
@@ -75,6 +88,14 @@ a {
     padding: 8px 12px;
 }
 
+a:link, a:visited {
+    color: #f7b600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 #area-menu > a:link, #area-menu > a:visited {
     color: #fff;
 }
@@ -82,6 +103,7 @@ a {
 #area-menu > a:hover {
     color: #f7b600;
     background: white;
+    text-decoration: none;
 }
 
 /*
@@ -95,6 +117,12 @@ h1 {
 
 h2 {
     color: #f7b600;
+}
+
+h3 {
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
 }
 
 .data-postagem{

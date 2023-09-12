@@ -1,0 +1,39 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    background: #159cb0 url(../img/fundo-horizontal.png) 
+    repeat-x;
+    float: left;
+}
+ul li {
+
+    float: left;
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: white;
+    background: url(../img/divisor.png) repeat-y;
+}
+
+ul .primeiro a {
+    background: none;
+}
+
+ul a:hover {
+    background: #44cade;
+    color: #085662;
+}
+
+#home #navegacao-lateral .home a,
+#sobre #navegacao-lateral .sobre a,
+#servicos #navegacao-lateral .servicos a,
+#noticias #navegacao-lateral .noticias a,
+#contato #navegacao-lateral .contato a {
+    background: #44cade;
+    color: #085662; 
+}
